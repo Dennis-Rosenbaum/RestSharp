@@ -90,6 +90,7 @@ namespace RestSharp
 
         /// <summary>
         /// Sets Resource property
+        /// Method is set to Method.GET
         /// </summary>
         /// <param name="resource">Resource to use for this request</param>
         public RestRequest(string resource) : this(resource, Method.GET) { }
@@ -107,6 +108,7 @@ namespace RestSharp
 
         /// <summary>
         /// Sets Resource property
+        /// Method is set to Method.GET
         /// </summary>
         /// <param name="resource">Resource to use for this request</param>
         public RestRequest(Uri resource) : this(resource, Method.GET) { }
